@@ -2,7 +2,6 @@
   --primary: #b6895b;
   --bg: #00000;
   --black: #010101;
-  
 }
 
 * {
@@ -19,7 +18,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
 }
@@ -62,7 +61,7 @@ body {
 }
 
 .navbar .navbar-nav a::after {
-  content: '';
+  content: "";
   display: block;
   padding-bottom: 0.5rem;
   border-bottom: 0.1rem solid var(--primary);
@@ -121,13 +120,12 @@ body {
   color: var(--black);
 }
 
-
 /* Hero Section */
 .hero {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url('../img/decimus.jpg');
+  background-image: url("../img/decimus.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -135,7 +133,7 @@ body {
 }
 
 .hero::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   width: 100%;
@@ -200,8 +198,6 @@ body {
   color: var(--black);
 }
 
-
-
 .about .row {
   display: flex;
 }
@@ -234,14 +230,12 @@ body {
 /* photos Section */
 .photos h2,
 .products h2,
-.contact h2
-{
+.contact h2 {
   margin-bottom: 1rem;
 }
 .photos p,
 .products p,
-.contact p
- {
+.contact p {
   text-align: center;
   max-width: 30rem;
   margin: auto;
@@ -249,26 +243,24 @@ body {
   line-height: 1.6;
 }
 
-.photos .row{
+.photos .row {
   display: flex;
   flex-wrap: wrap;
   margin-top: 5rem;
   justify-content: center;
-  
-  
 }
 
-.photos .row .photos-card{
+.photos .row .photos-card {
   text-align: center;
-  
-  
+  padding-bottom: 2rem;
 }
 
+.photos .row .photos-card img {
+  width: 200px;
+}
 
-
-.photos .row .photos-card .photos-card-title {
+.menu .row .menu-card .menu-card-title {
   margin: 1rem auto 0.5rem;
-  
 }
 
 /* Products Section */
@@ -377,8 +369,6 @@ body {
   color: #fff;
 } */
 
-
-
 /* .iframe-container{
   position: relative;
   overflow: hidden;
@@ -395,35 +385,26 @@ body {
   height: 50%;
 } */
 
-
-
 /* Footer */
 footer {
   background-color: var(--primary);
   text-align: center;
   padding: 1rem 0 3rem;
   margin-top: 1rem;
- 
 }
 
 footer .socials {
   padding: 1rem 0;
-
-  
-  
 }
 
 footer .socials a {
   color: #fff;
   margin: 1rem;
-
-  
 }
 
 footer .socials a:hover,
 footer .links a:hover {
   color: var(--bg);
- 
 }
 
 footer .links {
@@ -616,4 +597,3 @@ footer .credit a {
     font-size: 55%;
   }
 }
-
